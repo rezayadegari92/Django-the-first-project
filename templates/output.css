@@ -588,78 +588,12 @@ video {
   }
 }
 
-.relative {
-  position: relative;
-}
-
-.float-start {
-  float: inline-start;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.flex {
-  display: flex;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[200\] {
-  width: 200;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.flex-auto {
-  flex: 1 1 auto;
-}
-
 .flex-row {
   flex-direction: row;
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
-}
-
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
 }
 
 .bg-slate-300 {
