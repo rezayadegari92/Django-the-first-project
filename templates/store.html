@@ -15,7 +15,7 @@
             <h2>available products</h2>
             <ul>
                 {% for i in products %}
-                    <li>{{ i.product_name }}</li>
+                    <li>{{ i.product_name }}{{ i.product_price }}</li>
                 {% endfor %}    
             </ul>
         {% else %}   
