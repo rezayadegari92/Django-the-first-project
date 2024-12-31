@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Users</title>
+</head>
+<body>
+    <div class="container flex-row lg:px-40 xl:px-48 xm:p-0">
+        <h1 class="bg-slate-300 text-center font-bold text-4xl mt-6 ">users page</h1>
+    </div>    
+    <div>
+        {% if users %}
+            <h2>users info</h2>
+            <ul>
+                {% for i in users %}
+                    <li>{{ i.user_name }}</li>
+                {% endfor %}    
+            </ul>
+        {% else %}   
+            <p>no users founded</p>
+        {% endif %}
+    </div>
+</body>
+</html>
