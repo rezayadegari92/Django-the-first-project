@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="/home/reza/vscode/Django-the-first-project/static/src/output.css" rel="stylesheet">
     <title>Store</title>
 </head>
-<body>
-    <div class="container flex-row lg:px-40 xl:px-48 xm:p-0">
-        <h1 class="bg-slate-300 text-center font-bold text-4xl mt-6 ">WELCOME TO OUR STORE</h1>
-    </div>    
+<body>  
     <div>
         {% if products %}
-            <h2>available products</h2>
+            <h2 class="">available products</h2>
             <ul>
                 {% for i in products %}
                     <li>{{ i.product_name }}{{ i.product_price }}</li>
